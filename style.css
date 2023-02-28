@@ -1,0 +1,142 @@
+/* Text Color */
+
+h1.title{
+    color: blueviolet;
+    text-align: center;
+    border: 3px solid red;
+}
+.p1{
+    color: #abc72a;
+}
+
+.p2{
+    color: rgb(200, 125, 32 );
+}
+
+/* Text Align */
+.div{
+    border: 3px solid #0f0;
+    text-align: center;
+}
+.google{
+    text-align: center;
+    border: 3px solid blue;
+    display: inline-block;
+    /* width: 100%;  */
+}
+
+.p3{
+    text-align: justify;
+}
+/* Text Decoration */
+
+.p4{
+    text-decoration: overline;
+    background-color: aqua;
+}
+
+.p5{
+    background-color: blue;
+    text-decoration: line-through;
+}
+
+.p6{
+    background-color: chocolate;
+    text-decoration: underline;
+}
+
+.link{
+    text-decoration: none;
+}
+
+/* Text Deformation */
+
+.transform{
+    background-color: darkslategrey;
+    color: aliceblue;
+    text-transform: lowercase;
+}
+.transform2{
+    background-color: green;
+    text-transform: uppercase;
+    color: #0f0;
+}
+
+.transform3{
+    background-color: aqua;
+    text-transform: capitalize;
+}
+
+/* Text Indentation */
+
+.ind{
+    text-indent: 5%
+    ;
+}
+/* letter spacing */
+
+.ind{
+    letter-spacing: -1px;
+}
+
+.ind{
+    word-spacing: 10px;
+}
+
+.ind{
+    line-height: 2rem;
+}
+/* tezxt Shadow */
+.shadow{
+    /* border: 3px solid green; */
+    box-shadow: 2px 2px 3px  blue;
+    text-shadow: 2px 2px 3px  blue; ;
+}
+
+.shadow1{
+    text-shadow: 1px 1px 2px #00f, 1px 1px 1px red;
+}
+
+.shadow2{
+    text-shadow:1px 1px ;
+}
+
+.shadow3{
+    border: 1px solid #f00;
+    color: #fff;
+    background-color: rgb(200, 125, 32 );
+}
+
+/* white-space */
+
+.ws{
+    background-color: red;
+    white-space: nowrap;
+}
+.ws1{
+    background-color: green;
+    white-space: normal;
+}
+.ws2{
+    background-color: aqua;
+    white-space: pre;
+}
+
+/* Text Direction */
+.dir{
+    direction: rtl;
+    unicode-bidi: bidi-override;
+}
+
+/* Column */
+.column{
+    column-count: 3;
+    column-rule: 3px solid blue;
+}
+
+/* Font-Family */
+.ind{
+    font-family: 'Lato', sans-serif;
+    font-weight: 200;
+    font-style: italic;
+}
